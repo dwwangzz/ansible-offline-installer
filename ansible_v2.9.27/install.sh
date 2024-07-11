@@ -207,8 +207,8 @@ fi
 
 # 安装ansible
 cd .. && \
-tar -xzf ansible-2.9.7.tar.gz && \
-cd ansible-2.9.7/ && \
+tar -xzf ansible-2.9.27.tar.gz && \
+cd ansible-2.9.27/ && \
 python setup.py install
 
 if [ $? = "0" ]; then
